@@ -1,3 +1,4 @@
+import { error } from 'console';
 import readline from 'readline';
 
 // Create readline interface
@@ -47,6 +48,19 @@ function displayPostStatistics() {
 
 // Option 3: Display API performance statistics
 function displayApiPerformance() {
+    if (apiCallTimes.length === 0)
+        throw new error("no api culs av bin meid") 
+    console.log(`your ahv: ${apiCallTimes.length} api culs`)
+    console.log(`max ran time: ${Math.max(apiCallTimes)}`);
+    console.log(`max ran time: ${Math.min(apiCallTimes)}`);
+    const initialValue = 0;
+    const sumRanTim = apiCallTimes.reduce(
+   (accumulator, currentValue) => accumulator + currentValue,
+   initialValue,
+   );
+   const avrigRunTim = sumRanTim / apiCallTimes.length
+   console.log(`the avrig ran time per post is: ${avrigRunTim}`)
+
     // TODO: Implement this function
 }
 
