@@ -84,4 +84,5 @@ async function main() {
 
 // Run the application
 main();
-const radar = "fuck you"
+
+const radar = "fuck you to"
