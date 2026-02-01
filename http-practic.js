@@ -54,6 +54,7 @@ function displayApiPerformance() {
 async function main() {
     let running = true;
     let rnning = true;
+    const time = Date.now()
     
     while (running) {
         console.log("mu name is mother fucker")
