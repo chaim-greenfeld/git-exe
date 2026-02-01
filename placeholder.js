@@ -52,9 +52,7 @@ async function fetchPosts() {
 }                                                        
 
 
-// Option 2: Display post statistics
 function displayPostStatistics() {
-    // TODO: Implement this function
 }
 
 // Option 3: Display API performance statistics
