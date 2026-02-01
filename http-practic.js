@@ -78,3 +78,6 @@ async function main() {
         }
     }
 }
+
+// Run the application
+main();
