@@ -53,8 +53,10 @@ function displayApiPerformance() {
 // Main function to run the application
 async function main() {
     let running = true;
+    let rnning = true;
     
     while (running) {
+        console.log("mu name is mother fucker")
         displayMenu();
         const choice = await promptUser('Enter your choice (1-4): ');
         
