@@ -55,6 +55,7 @@ async function main() {
     let running = true;
     
     while (running) {
+        console.log("mu name is mother fucker")
         displayMenu();
         const choice = await promptUser('Enter your choice (1-4): ');
         
